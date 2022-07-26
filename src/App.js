@@ -1,16 +1,13 @@
 import React from 'react';
-import './App.css'
-import Grid from './component/grid';
+import './App.css';
+import Homepage from './component/homepage.component';
+
 
 function App() {
-
-    return(
-     <>
-     <Grid name ="heshan">Children</Grid>
-     </>
-
-    )
-  
-
+ return(
+<div>
+  <Homepage/>
+</div>
+ )
 }
 export default App;
